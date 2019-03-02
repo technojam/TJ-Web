@@ -268,7 +268,7 @@ footer {
     }
     .custom-navbar.top-nav-collapse .nav li a {
       margin-right: 0;
-    }
+    }   
 
 }
 
@@ -368,6 +368,7 @@ footer {
 -----------------------------------------*/
 #overview img {
   position: relative;
+  margin-top: 40px;
 }
 
 
@@ -438,11 +439,11 @@ footer {
   overflow: hidden;
 }
 
-#speakers .members.active {
+#speakers .members.head {
   height: auto;
 }
 
-#speakers .head {
+#speakers .members.active {
   height: auto;
 }
 
@@ -554,7 +555,6 @@ footer {
   width: 100%;
   margin: 0;
   padding: 0;
-  position: relative;
   height: 80px;
   box-shadow: 0 -3px 5px rgba(0,0,0,.3);
 }
@@ -564,9 +564,6 @@ footer {
 }
 
 #speakers .members-control .btn {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   width: 100px;
   background-color: #101010;
   margin: 20px;
@@ -781,14 +778,20 @@ footer {
    Contact section
 -----------------------------------------*/
 #contact {
-    background: url('../images/contact-bg.png') 50% 0 repeat-y fixed;
+    background: url('../images/contact.jpeg') fixed;
     background-size: cover;
     background-position: center center;
+    width: 100%;
 }
 
 #contact .contact_des {
   padding-top: 3rem;
   padding-right: 2rem;
+}
+
+#contact .contact_des h3 {
+  padding-bottom: 0;
+  margin-top: 40px;
 }
 
 #contact .contact_detail {
@@ -826,7 +829,7 @@ footer {
 }
 
 #contact input[type="submit"]:hover {
-  background: #f2545f;
+  background: #5bd4e4;
 }
 
 
@@ -901,7 +904,7 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #f2545f;
+    background: #5bd4e4;
     color: #ffffff;
 }
 
@@ -932,9 +935,33 @@ footer {
 
   #intro { height: 100vh; }
 
+  #speakers .members {
+    height: 350px;
+  }
+
   #speakers .members .card {
     width: 160px;
     height: 205px;
+  }
+
+  #speakers .card-back .details {
+    top: 30%;
+    padding: 10px;
+  }
+  
+  #speakers .card-back .details .name {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  
+  #speakers .card-back .details .seperator {
+    margin: 5px 0;
+    height: 2px;
+    width: 40px;
+  }
+  
+  #speakers .card-back .details .links {
+    margin-top: 30px;
   }
 
   #video iframe {
@@ -1069,10 +1096,34 @@ footer {
     transform: translate(0px,0px);
   }
 
+  #speakers .members {
+    height: 260px;
+  }
+
   #speakers .members .card {
     width: 120px;
     height: 155px;
     margin: 5px;
+  }
+
+  #speakers .card-back .details {
+    top: 15%;
+    padding: 10px;
+  }
+  
+  #speakers .card-back .details .name {
+    font-size: 12px;
+    margin: 4px 0;
+  }
+  
+  #speakers .card-back .details .seperator {
+    margin: 5px 0;
+    height: 2px;
+    width: 30px;
+  }
+  
+  #speakers .card-back .details .links {
+    margin-top: 12px;
   }
 
   #sponsors img {
@@ -1109,10 +1160,32 @@ footer {
     letter-spacing: 15px;
     font-size: 30px;
   }
+  #speakers .members {
+    height: 200px;
+  }
   #speakers .members .card {
     width: 180px;
     height: 230px;
     margin: 5px;
+  }
+  #speakers .card-back .details {
+    top: 30%;
+    padding: 10px;
+  }
+  
+  #speakers .card-back .details .name {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  #speakers .card-back .details .seperator {
+    margin: 5px 0;
+    height: 2px;
+    width: 40px;
+  }
+  
+  #speakers .card-back .details .links {
+    margin-top: 30px;
   }
 }
 
@@ -1122,12 +1195,53 @@ footer {
     height: 180px;
     margin: 5px;
   }
+  #speakers .card-back .details {
+    top: 20%;
+    padding: 10px;
+  }
+  
+  #speakers .card-back .details .name {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+  
+  #speakers .card-back .details .seperator {
+    margin: 5px 0;
+    height: 2px;
+    width: 40px;
+  }
+  
+  #speakers .card-back .details .links {
+    margin-top: 30px;
+  }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 375px) {
+  #speakers .members {
+    height: 234px;
+  }
   #speakers .members .card {
-    width: 120px;
-    height: 155px;
+    width: 43vw;
+    height: 55vw;
     margin: 5px;
+  }
+  #speakers .card-back .details {
+    top: 20%;
+    padding: 8px;
+  }
+  
+  #speakers .card-back .details .name {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+  
+  #speakers .card-back .details .seperator {
+    margin: 5px 0;
+    height: 2px;
+    width: 40px;
+  }
+  
+  #speakers .card-back .details .links {
+    margin-top: 6vh;
   }
 }

@@ -65,31 +65,28 @@ a {
   margin-bottom: 32px;
 }
 
-#overview,
-#register {
+#overview
+ {
   padding-top: 14rem;
   padding-bottom: 14rem;
 }
 
-#detail, #video,
+#detail,
 #speakers,
 #program,
-#sponsors,
 #contact, footer {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
 #detail,
-#speakers, #sponsors,
+#speakers,
 footer {
   text-align: center;
 }
 
 #overview h3,
-#detail h3, #video h3,
-#register h3,
-#venue h3,
+#detail h3,
 #contact h3 {
     padding-bottom: 12px;
 }
@@ -389,15 +386,6 @@ footer {
 
 
 /*---------------------------------------
-    Video section
------------------------------------------*/
-#video iframe {
-  border: none;
-}
-
-
-
-/*---------------------------------------
    Speakers section
 -----------------------------------------*/
 #speakers {
@@ -638,142 +626,6 @@ footer {
 .tab-content {
   padding-top: 20px;
 }
-
-
-
-/*---------------------------------------
-    Regsiter section
------------------------------------------*/
-#register {
-    background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-}
-
-#register .form-control {
-  background: transparent;
-  border: 2px solid #ffffff;
-  border-radius: 0px;
-  color: #ffffff;
-  margin-bottom: 16px;
-}
-
-#register input {
-  height: 45px;
-}
-
-#register input[type="submit"] {
-  background: #f2545f;
-  border-radius: 100px;
-  border: none;
-  color: #ffffff;
-  letter-spacing: 2px;
-  height: 50px;
-  margin-top: 12px;
-  transition: all 0.4s ease-in-out;
-}
-
-#register input[type="submit"]:hover {
-  background: #ffffff;
-  color: #222;
-}
-
-
-
-/*---------------------------------------
-   Faq section
------------------------------------------*/
-#faq {
-  background: #f9f9f9;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-#faq .panel-group {
-  margin-top: 32px;
-}
-
-#faq .panel-group .panel {
-  margin-bottom: 8px;
-}
-
-#faq .panel-default {
-  border: none;
-}
-
-#faq .panel-default>.panel-heading {
-  background: #f0f0f0;
-  color: #505050;
-}
-
-#faq .panel-heading {
-  border: none;
-  padding-top: 8px;
-  padding-bottom: 6px;
-}
-
-#faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
-  border-top: none;
-  padding-top: 22px;
-  padding-left: 32px;
-  padding-bottom: 22px;
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"] {
-  font-size: 18px;
-  font-weight: 500;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 10px 15px;
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"]::after {
-  content: "-";
-  display: block;
-  position: absolute;
-  line-height: 1;
-  right: 1em;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"].collapsed::after {
-  content: "+";
-}
-
-
-
-/*---------------------------------------
-   Venue section
------------------------------------------*/
-#venue {
-    background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-}
-
-#venue p {
-  padding-top: 12px;
-  padding-bottom: 18px;
-}
-
-
-
-/*---------------------------------------
-   Sponsors section
------------------------------------------*/
-#sponsors img {
-  margin-top: 18px;
-}
-
-
-
 /*---------------------------------------
    Contact section
 -----------------------------------------*/
@@ -1084,7 +936,7 @@ footer {
 
   #overview img,
   #detail .col-md-4,
-  #register form {
+   {
     padding-top: 32px;
   }
 
@@ -1124,10 +976,6 @@ footer {
   
   #speakers .card-back .details .links {
     margin-top: 12px;
-  }
-
-  #sponsors img {
-    padding-top: 22px;
   }
 
   #contact .contact_detail {

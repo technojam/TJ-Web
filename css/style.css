@@ -476,14 +476,14 @@ footer {
 #speakers .head .card .card-front .badge {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 50px;
   height: 50px;
   padding: 0;
   margin: 0;
   background-color: rgba(255, 255, 255, 0.7);
   z-index: 1;
-  border-radius: 0 0 5px 0;
+  border-radius: 0 0 0 5px;
 }
 
 #speakers .head .card .card-front .badge img {

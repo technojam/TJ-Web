@@ -478,9 +478,29 @@ footer {
 }
 
 #speakers .members .card .card-front img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 100%;
+  height: 100%;
+}
+
+#speakers .head .card .card-front .badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+  border-radius: 0 0 5px 0;
+}
+
+#speakers .head .card .card-front .badge img {
   width: 100%;
   height: 100%;
-  /* opacity: .8; */
 }
 
 #speakers .members .card .card-back {
@@ -778,7 +798,7 @@ footer {
    Contact section
 -----------------------------------------*/
 #contact {
-    background: url('../images/contact.jpeg') fixed;
+    background: linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url('../images/contact.jpeg') fixed;
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -944,6 +964,11 @@ footer {
     height: 205px;
   }
 
+  #speakers .head .card .card-front .badge {
+    width: 30px;
+    height: 30px;
+  }
+
   #speakers .card-back .details {
     top: 30%;
     padding: 10px;
@@ -1106,6 +1131,11 @@ footer {
     margin: 5px;
   }
 
+  #speakers .head .card .card-front .badge {
+    width: 25px;
+    height: 25px;
+  }
+
   #speakers .card-back .details {
     top: 15%;
     padding: 10px;
@@ -1168,6 +1198,10 @@ footer {
     height: 230px;
     margin: 5px;
   }
+  #speakers .head .card .card-front .badge {
+    width: 40px;
+    height: 40px;
+  }
   #speakers .card-back .details {
     top: 30%;
     padding: 10px;
@@ -1194,6 +1228,10 @@ footer {
     width: 140px;
     height: 180px;
     margin: 5px;
+  }
+  #speakers .head .card .card-front .badge {
+    width: 30px;
+    height: 30px;
   }
   #speakers .card-back .details {
     top: 20%;
@@ -1224,6 +1262,10 @@ footer {
     width: 43vw;
     height: 55vw;
     margin: 5px;
+  }
+  #speakers .head .card .card-front .badge {
+    width: 35px;
+    height: 35px;
   }
   #speakers .card-back .details {
     top: 20%;

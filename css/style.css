@@ -300,7 +300,7 @@ footer {
     Intro section
 -----------------------------------------*/
 #intro {
-    background: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,.7)), url('../images/intro-bg1.jpg') fixed;
+    background: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,.7)), url('../images/into/intro-bg1.jpg') fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -447,7 +447,7 @@ footer {
 }
 
 #speakers .members .card .card-front {
-  background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(../images/placeholder.png);
+  background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(../images/team/placeholder.png);
   background-size: cover;
   background-position: center center;
   position: absolute;
@@ -650,7 +650,7 @@ footer {
    Contact section
 -----------------------------------------*/
 #contact {
-    background: linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url('../images/contact.jpeg') fixed;
+    background: linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url('../images/contact/contact.jpeg') fixed;
     background-size: cover;
     background-position: center center;
     width: 100%;
